@@ -46,3 +46,4 @@ function receiveMessage(){
         iFrame.contentWindow.postMessage(`[system] - ${user} joined the conversation<br>`, '*')
     })
   }
+

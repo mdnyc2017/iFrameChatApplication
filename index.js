@@ -9,7 +9,7 @@ function prepareFrame(createUser) {
 
     if (user){//code only runs if user is truthy, ie, if it exists and is not null or empty        
         let iframe = document.createElement("iframe") //creating an iFrame
-        iframe.setAttribute("src", "frame.html")
+        iframe.setAttribute("src", "iframe.html")
         iframe.setAttribute("name", `${user}`)
         iframe.setAttribute("id", `${user}`)
         iframe.setAttribute("style", "width: 250px; height: 500px;")

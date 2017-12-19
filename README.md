@@ -13,4 +13,5 @@ In general, this is a simple chat client using JavaScript and inter-iframe commu
 
 + All iframes are draggable across the window
 
-
+#BONUS
++ In the underArmourScript file is a .js file with a simple script to be entered into the browser console that will hide all items greater than $100 in price from the underArmour website

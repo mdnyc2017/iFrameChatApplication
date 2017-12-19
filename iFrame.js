@@ -2,9 +2,9 @@ function submitMessage(){
 /*For key or mouse events, the event.key read-only property returns the value of a key or keys pressed by the user. If the pressed key has a printed representation, the returned value is a non-empty Unicode character string containing the printable representation of the key.
 In this instance, we want to listen for a user clicking left on his/her mouse or pressing
 */
-    if (event.key===13 || event.key===1){//accepts enter key (charCode 13) or left-clicking the submit button (charCode 1)
+    if (event.which===13 || event.which===1){//accepts enter key (charCode 13) or left-clicking the submit button (charCode 1)
 
-      if (document.getElementById("inputText").length){
+      if (document.getElementById("inputText").value.length){
           //using .length to ensure that the message field isn't blank by checking to see if the length is greater than 0. If it's empty, length is 0, meaning it is falsy and the following code will not execute
        let message = `[${window.name}] - ${document.getElementById("inputText").value} <br>`// formats text message as [name] - text
         document.getElementById("inputText").value = ""// resets text field 

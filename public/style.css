@@ -18,7 +18,12 @@
   }
 
   #chatField {
-    width: 220px; height: 420px; max-height: 420px; overflow: auto; border: 1px solid #000; background-color: rgb(233, 143, 115);
+    width: 220px; 
+    height: 420px; 
+    max-height: 420px; 
+    overflow: auto; 
+    border: 1px solid #000; 
+    background-color: rgb(233, 143, 115);
     word-wrap: break-word
   }
 

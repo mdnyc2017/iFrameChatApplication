@@ -1,5 +1,5 @@
 #iFrame Communication App
-In general, this is a simple chat client using JavaScript and inter-iframe communication. 
++ In general, this is a simple chat client using JavaScript and inter-iframe communication. 
 
 + There is no server code on this project
 
